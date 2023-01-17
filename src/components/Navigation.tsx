@@ -5,9 +5,9 @@ export const Navigation = (): JSX.Element => {
     return (
         <nav className="topnav">
             <a href='https://www.gotipath.com/'>Gotipath</a>
-            <NavLink to="/zoom-api">Stream</NavLink>
-            <NavLink to="/zoom-api">CDN</NavLink>
-            <NavLink to="/zoom-api">Cloud</NavLink>
+            <NavLink to="/api/stream">Stream</NavLink>
+            <NavLink to="/api/stream">CDN</NavLink>
+            <NavLink to="/api/stream">Cloud</NavLink>
         </nav>
     );
 };
