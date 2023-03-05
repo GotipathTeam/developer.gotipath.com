@@ -1,5 +1,4 @@
 import { DevPortalProvider } from '@stoplight/elements-dev-portal';
-import React from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 import { StreamAPI } from './components/API';
